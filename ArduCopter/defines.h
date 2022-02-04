@@ -346,9 +346,13 @@
 #define AP_BARO_BMP085    1
 #define AP_BARO_MS5611    2
 #define AP_BARO_PX4       3
+#define AP_BARO_LPS331AP  4
 
 #define AP_BARO_MS5611_SPI 1
 #define AP_BARO_MS5611_I2C 2
+
+#define AP_BARO_LPS331AP_SPI 1
+#define AP_BARO_LPS331AP_I2C 2
 
 // Error message sub systems and error codes
 #define ERROR_SUBSYSTEM_MAIN                1
